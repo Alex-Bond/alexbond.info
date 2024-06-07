@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'livory_boldregular';
+  src: url("/fonts/livory_bold-webfont.eot");
+  src: url("/fonts/livory_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/livory_bold-webfont.woff2") format("woff2"), url("/fonts/livory_bold-webfont.woff") format("woff"), url("/fonts/livory_bold-webfont.ttf") format("truetype"), url("/fonts/livory_bold-webfont.svg#livory_boldregular") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  html body {
+    margin: 0;
+    min-height: 100%;
+    display: inline-block;
+    width: 100%;
+    padding: 0; }
+    html body .container {
+      text-align: center;
+      margin-top: calc((100vh / 2) - 140px); }
+      html body .container h1 {
+        font-family: livory_boldregular, serif;
+        font-size: 48px;
+        color: #333333;
+        margin-bottom: 10px; }
+      html body .container hr {
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 18px; }
+      html body .container p {
+        font-family: Open Sans, sans-serif;
+        color: #333333;
+        font-size: 14px; }
+      html body .container a {
+        color: #333333;
+        text-decoration: none;
+        border-bottom: 1px solid #FFFFFF;
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease; }
+        html body .container a:hover {
+          border-bottom: 1px solid #333333; }
+
+/*# sourceMappingURL=style.css.map */
